@@ -1,5 +1,5 @@
 # Simple-Screenshot-Chrome-Extension
-A simple chrome extension (unpacked extension) that takes screenshot and annotate of web page
+A simple chrome extension (unpacked extension) that takes screenshot and annotate the web page
 
 ### How To Setup
 - Download the project
