@@ -4,16 +4,25 @@
     <title>Simple Screenshot</title>
     <meta charset="utf-8">
     <style>
-      body { font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif; font-size: 100%; }
-      #status { white-space: pre; text-overflow: ellipsis; overflow: hidden; max-width: 400px; }
+      body { font-family: cursive; font-size: 100%; color: #2E2E2E; background-color: #E6E6E6; text-align: center; }
+      img { width: 750px; height: 600px; }
+      button { background: linear-gradient(#11A1D6,#0E86B2); text-shadow: 1px 1px 1px #0E86B2; color: #FFF; display: inline-block; border-radius: 4px;
+              box-shadow: inset 0 1px 0 rgba(255,255,255,0.2); font-family: Arial, sans-serif; line-height: 2.5em; padding: 0 3em; text-decoration: none; 
+      }
     </style>
     <link type="text/css" rel="stylesheet" href="lib/annotorious/css/annotorious.css" />
     <script type="text/javascript" src="lib/annotorious/js/annotorious.min.js"></script>
     <script src="popup.js"></script>
   </head>
   <body>
+    <header>
+      <h1>Simple Screenshot</h1>
+    </header>
+    <hr>
     <div id="status"></div>
+    <hr>
     <img id="screenshot" class="annotatable" alt="Screenshot" hidden />
+    <hr>
     <a id="save" download><button>Save</button></a>
     <button id="close">Cancel</button>
   </body>

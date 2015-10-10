@@ -23,7 +23,7 @@ function takeScreenshot() {
           img.hidden = false;
         }
       );
-    }, 1000);
+    }, 1500);
   });
 }
 
