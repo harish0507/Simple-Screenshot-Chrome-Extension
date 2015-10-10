@@ -16,3 +16,6 @@ A simple chrome extension (unpacked extension) that takes screenshot and annotat
 - Wait for 5 seconds to load the annotation module
 - Now click and drag on the image to annotate
 - To save the image click on the save button
+
+### Libraries used
+- Annotorious - A simple javascript library to annotate images
