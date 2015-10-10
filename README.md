@@ -1,5 +1,6 @@
 # Simple-Screenshot-Chrome-Extension
 A simple chrome extension (unpacked extension) that takes screenshot and annotate of web page
+
 ### How To Setup
 - Download the project
 - Open chrome navigate to options -> settings -> extensions
@@ -7,6 +8,7 @@ A simple chrome extension (unpacked extension) that takes screenshot and annotat
 - Click on load unpacked extension
 - Select the root folder that you downloaded now and click ok
 - Thats it now a blue screemshot icon will appear on the top right next to the more options
+
 ### How To Use
 - Navigate to any url on chrome
 - Click on the screenshot extension icon
